@@ -8,6 +8,7 @@ tar xf libsodium-1.0.16.tar.gz && cd libsodium-1.0.16
 echo /usr/local/lib > /etc/ld.so.conf.d/usr_local_lib.conf
 ldconfig
 cd ~
+yum install git
 git clone https://github.com/LEE-Blog/shadowsocksr.git
 cd shadowsocksr
 sh setup_cymysql2.sh
